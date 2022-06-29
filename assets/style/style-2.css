@@ -1,0 +1,79 @@
+/*tab 01*/
+#instaladores-tab.nav-pills .nav-link {
+  padding: 2.5em 2em;
+  border-radius: 0.7rem;
+  background-color: rgba(229, 229, 229, 0.5);
+  margin: 0 0.5em;
+  color: #00335E;
+}
+
+@media (min-width: 576px) {
+  #instaladores-tab.nav-pills .nav-link {
+    padding: 2.5em 4em;
+  }
+}
+
+#instaladores-tab .nav-link svg {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 1em;
+  fill: #00335E;
+}
+
+#instaladores-tab.nav-pills .nav-link.active, #instaladores-tab.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #00335E;
+}
+
+#instaladores-tab.nav-pills .nav-link.active svg, #instaladores-tab.nav-pills .show > .nav-link svg {
+  fill: #fff;
+}
+
+/*tab 02*/
+#component-tab.nav-pills .nav-link {
+  padding: .7em 2.5em;
+  border-radius: 4rem;
+  background-color: rgba(229, 229, 229, 0.5);
+  margin: 0 0.5em;
+  color: #EC6E4C;
+}
+
+@media (min-width: 576px) {
+  #component-tab.nav-pills .nav-link {
+    padding: .7em 5.5em;
+  }
+}
+
+#component-tab .nav-link svg {
+  width: 30px;
+  margin-right: .5em;
+  height: 30px;
+  fill: #EC6E4C;
+}
+
+#component-tab.nav-pills .nav-link.active, #component-tab.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #EC6E4C;
+}
+
+#component-tab.nav-pills .nav-link.active svg, #component-tab.nav-pills .show > .nav-link svg {
+  fill: #fff;
+}
+
+/* acordeon*/
+.accordion {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .accordion {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.accordion-button:not(.collapsed) {
+  color: #00335E;
+}
+/*# sourceMappingURL=style-2.css.map */
