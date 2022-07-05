@@ -9,8 +9,28 @@
 
 @media (min-width: 576px) {
   #instaladores-tab.nav-pills .nav-link {
-    padding: 2.5em 4em;
+    padding: 2.5em 0;
   }
+}
+
+#instaladores-tab .nav-link {
+  min-width: 200px;
+  width: 200px;
+}
+
+@media (min-width: 769px) {
+  #instaladores-tab .nav-link {
+    width: 250px;
+  }
+}
+
+#instaladores-tab .nav-link:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 #instaladores-tab .nav-link svg {

@@ -1295,7 +1295,7 @@
                 <div>
                   <svg ><use xlink:href="#icon-aplication" /></svg>
                   <p class="mb-0">
-                    Aplicación 
+                    Aplicación Captura <br> de Imágenes 
                   </p>
                 </div>
                 </button>
@@ -1310,6 +1310,7 @@
                   role="tab"
                   aria-controls="pills-component"
                   aria-selected="false"
+                  style="height: 100%;"
                 >
                 <div>
                   <svg ><use xlink:href="#icon-component" /></svg>
@@ -1413,32 +1414,13 @@
                 <li class="nav-item" role="presentation">
                   <button
                     class="nav-link active"
-                    id="pills-tablet-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-tablet"
-                    type="button"
-                    role="tab"
-                    aria-controls="pills-tablet"
-                    aria-selected="true"
-                  >
-                  <div>
-                    <svg ><use xlink:href="#icon-aplication" /></svg>
-                    <span class="mb-0">
-                      Tablet 
-                    </span>
-                  </div>
-                  </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button
-                    class="nav-link"
                     id="pills-desktop-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-desktop"
                     type="button"
                     role="tab"
                     aria-controls="pills-desktop"
-                    aria-selected="false"
+                    aria-selected="true"
                   >
                   <div>
                     <svg ><use xlink:href="#icon-component" /></svg>
@@ -1448,9 +1430,28 @@
                   </div>
                   </button>
                 </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-tablet-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-tablet"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-tablet"
+                    aria-selected="false"
+                  >
+                  <div>
+                    <svg ><use xlink:href="#icon-aplication" /></svg>
+                    <span class="mb-0">
+                      Tablet 
+                    </span>
+                  </div>
+                  </button>
+                </li>
               </ul>
               <div class="tab-content" id="component-tabContent">
-                <div class="tab-pane fade show active" id="pills-tablet"
+                <div class="tab-pane fade " id="pills-tablet"
                   role="tabpanel"
                   aria-labelledby="pills-tablet-tab"
                 >
@@ -1483,204 +1484,195 @@
                 </div>
                 <!--acordeon 02-content fin-->
                 </div>
-                <div class="tab-pane fade" id="pills-desktop"
+                <div class="tab-pane fade show active" id="pills-desktop"
                   role="tabpanel"
                   aria-labelledby="pills-desktop-tab"
                 >
-                    <!--acordeon 03-->
-              <div class="accordion  mb-5" id="accordion03">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="heading03One">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse03One" aria-expanded="true" aria-controls="collapse03One">
-                      Lector Biométrico Decadactilar
-                    </button>
-                  </h2>
-                  <div id="collapse03One" class="accordion-collapse collapse show" aria-labelledby="heading03One" data-bs-parent="#accordion03">
-                    <div class="accordion-body">
-                      <article class="mb-2 table-responsive">
-                        <table class="table">
-                          <thead>
-                            <tr class="table-secondary">
-                              <th scope="col">Item</th>
-                              <th scope="col">Descripción</th>
-                              <th scope="col">Tamaño</th>
-                              <th scope="col">Enlace</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <th scope="row">1</th>
-                              <td>Driver Morpho Top</td>
-                              <td>93.66MB</td>
-                              <td>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
-                                  >MorphoBop64bits.zip</a
-                                >
-                              </td>
-                            </tr>
-                            <tr>
-                              <th scope="row">2</th>
-                              <td>Morphotop Exe.</td>
-                              <td>15.10MB</td>
-                              <td>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
-                                  >MorphoTop100_Setup_64bits.10.0.zip</a
-                                >
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </article>
+                <!--acordeon 03-->
+                  <div class="accordion  mb-5" id="accordion03">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading03One">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse03One" aria-expanded="true" aria-controls="collapse03One">
+                          Lector Biométrico Decadactilar
+                        </button>
+                      </h2>
+                      <div id="collapse03One" class="accordion-collapse collapse show" aria-labelledby="heading03One" data-bs-parent="#accordion03">
+                        <div class="accordion-body">
+                          <article class="mb-2 table-responsive">
+                            <table class="table">
+                              <thead>
+                                <tr class="table-secondary">
+                                  <th scope="col">Item</th>
+                                  <th scope="col">Descripción</th>
+                                  <th scope="col">Tamaño</th>
+                                  <th scope="col">Enlace</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>Driver Morpho Top</td>
+                                  <td>93.66MB</td>
+                                  <td>
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                      >MorphoBop64bits.zip</a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>Morphotop Exe.</td>
+                                  <td>15.10MB</td>
+                                  <td>
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                      >MorphoTop100_Setup_64bits.10.0.zip</a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </article>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading03Two">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse03Two" aria-expanded="false" aria-controls="collapse03Two">
+                          Captura de Firma
+                        </button>
+                      </h2>
+                      <div id="collapse03Two" class="accordion-collapse collapse" aria-labelledby="heading03Two" data-bs-parent="#accordion03">
+                        <div class="accordion-body">
+                          <h6 class="mb-3 mt-2 fw-bold text-center">WACOM</h6>
+                          <article class="mb-3 table-responsive">
+                            <table class="table">
+                              <thead>
+                                <tr class="table-secondary">
+                                  <th scope="col">Item</th>
+                                  <th scope="col">Descripción</th>
+                                  <th scope="col">Tamaño</th>
+                                  <th scope="col">Enlace</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>Driver Wacom STU-530/G (64 bits)</td>
+                                  <td>6.21MB</td>
+                                  <td>
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                      >Wacom-STU-Driver-5.2.1.zip</a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>SDK Pad WACOM (64 bits)</td>
+                                  <td>14.02MB</td>
+                                  <td>
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                      >Wacom-Signature-SDK-x64-3.7.0.zip</a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td>WacomSignatureSetup (64 bits)</td>
+                                  <td>6.78MB</td>
+                                  <td>
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                      >WacomSignature_Setup_V1_64bits.1.0.3.zip</a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </article>
+                          <h6 class="mb-3 fw-bold text-center">TOPAZ</h6>
+                          <article class="mb- table-responsive">
+                            <table class="table">
+                              <thead>
+                                <tr class="table-secondary">
+                                  <th scope="col">Item</th>
+                                  <th scope="col">Descripción</th>
+                                  <th scope="col">Tamaño</th>
+                                  <th scope="col">Enlace</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>Driver Topaz T-LBK755SE-BHSB-R (64 bits)</td>
+                                  <td>8.53MB</td>
+                                  <td>
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                      >sigplusse.zip</a
+                                    >
+                                  </td>
+                                </tr>
+                                
+                              </tbody>
+                            </table>
+                          </article>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading03Three">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse03Three" aria-expanded="false" aria-controls="collapse03Three">
+                          Camara Fotográfica
+                        </button>
+                      </h2>
+                      <div id="collapse03Three" class="accordion-collapse collapse" aria-labelledby="heading03Three" data-bs-parent="#accordion03">
+                        <div class="accordion-body">
+                          <article class="mb-2 table-responsive">
+                            <table class="table">
+                              <thead>
+                                <tr class="table-secondary">
+                                  <th scope="col">Item</th>
+                                  <th scope="col">Descripción</th>
+                                  <th scope="col">Tamaño</th>
+                                  <th scope="col">Enlace</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>Camaras - Canon Rebel T3, Canon Rebel T5, Canon Rebel T6 (64 bits)	</td>
+                                  <td>5.2MB</td>
+                                  <td>
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                      >cmrCanonEOSRevelT6_setup_v2.0.0.zip</a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>Canon Rebel T7 - Nuevo</td>
+                                  <td>7.115MB</td>
+                                  <td>
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                      >mrCanonEOSRevelT7_setup_v1.0.0.zip</a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td>Visual Studio C++ 2012 - Usar con componente de camara (64 bits)</td>
+                                  <td>13.45MB</td>
+                                  <td>
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                      >vcredist_x86.zip</a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </article>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="heading03Two">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse03Two" aria-expanded="false" aria-controls="collapse03Two">
-                      Captura de Firma WACOM
-                    </button>
-                  </h2>
-                  <div id="collapse03Two" class="accordion-collapse collapse" aria-labelledby="heading03Two" data-bs-parent="#accordion03">
-                    <div class="accordion-body">
-                      <article class="mb-2 table-responsive">
-                        <table class="table">
-                          <thead>
-                            <tr class="table-secondary">
-                              <th scope="col">Item</th>
-                              <th scope="col">Descripción</th>
-                              <th scope="col">Tamaño</th>
-                              <th scope="col">Enlace</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <th scope="row">1</th>
-                              <td>Driver Wacom STU-530/G (64 bits)</td>
-                              <td>6.21MB</td>
-                              <td>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
-                                  >Wacom-STU-Driver-5.2.1.zip</a
-                                >
-                              </td>
-                            </tr>
-                            <tr>
-                              <th scope="row">2</th>
-                              <td>SDK Pad WACOM (64 bits)</td>
-                              <td>14.02MB</td>
-                              <td>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
-                                  >Wacom-Signature-SDK-x64-3.7.0.zip</a
-                                >
-                              </td>
-                            </tr>
-                            <tr>
-                              <th scope="row">3</th>
-                              <td>WacomSignatureSetup (64 bits)</td>
-                              <td>6.78MB</td>
-                              <td>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
-                                  >WacomSignature_Setup_V1_64bits.1.0.3.zip</a
-                                >
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="heading03Three">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse03Three" aria-expanded="false" aria-controls="collapse03Three">
-                      Camara Fotográfica
-                    </button>
-                  </h2>
-                  <div id="collapse03Three" class="accordion-collapse collapse" aria-labelledby="heading03Three" data-bs-parent="#accordion03">
-                    <div class="accordion-body">
-                      <article class="mb-2 table-responsive">
-                        <table class="table">
-                          <thead>
-                            <tr class="table-secondary">
-                              <th scope="col">Item</th>
-                              <th scope="col">Descripción</th>
-                              <th scope="col">Tamaño</th>
-                              <th scope="col">Enlace</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <th scope="row">1</th>
-                              <td>Camaras - Canon Rebel T3, Canon Rebel T5, Canon Rebel T6 (64 bits)	</td>
-                              <td>5.2MB</td>
-                              <td>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
-                                  >cmrCanonEOSRevelT6_setup_v2.0.0.zip</a
-                                >
-                              </td>
-                            </tr>
-                            <tr>
-                              <th scope="row">2</th>
-                              <td>Canon Rebel T7 - Nuevo</td>
-                              <td>7.115MB</td>
-                              <td>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
-                                  >mrCanonEOSRevelT7_setup_v1.0.0.zip</a
-                                >
-                              </td>
-                            </tr>
-                            <tr>
-                              <th scope="row">3</th>
-                              <td>Visual Studio C++ 2012 - Usar con componente de camara (64 bits)</td>
-                              <td>13.45MB</td>
-                              <td>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
-                                  >vcredist_x86.zip</a
-                                >
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="heading03Four">
-                    <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse03Four" aria-expanded="true" aria-controls="collapse03Four">
-                      Captura de Firma TOPAZ
-                    </button>
-                  </h2>
-                  <div id="collapse03Four" class="accordion-collapse collapse" aria-labelledby="heading03Four" data-bs-parent="#accordion03">
-                    <div class="accordion-body">
-                      <article class="mb-2 table-responsive">
-                        <table class="table">
-                          <thead>
-                            <tr class="table-secondary">
-                              <th scope="col">Item</th>
-                              <th scope="col">Descripción</th>
-                              <th scope="col">Tamaño</th>
-                              <th scope="col">Enlace</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <th scope="row">1</th>
-                              <td>Driver Topaz T-LBK755SE-BHSB-R (64 bits)</td>
-                              <td>8.53MB</td>
-                              <td>
-                                <a href="#" target="_blank" rel="noopener noreferrer"
-                                  >sigplusse.zip</a
-                                >
-                              </td>
-                            </tr>
-                            
-                          </tbody>
-                        </table>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <!--acordeon 03 fin-->
                 </div>
               </div>

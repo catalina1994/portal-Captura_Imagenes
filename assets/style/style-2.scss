@@ -7,9 +7,20 @@
         margin: 0 0.5em;
         color: #00335E;
         @media (min-width: 576px){
-            padding:2.5em 4em;
+            padding:2.5em 0;
         }
         
+    }
+    .nav-link{
+        min-width: 200px;
+        width: 200px;
+        @media (min-width: 769px){
+            width: 250px;
+        }
+        &:hover{
+            transition: transform .6s;
+            transform: scale(1.05)
+        }
     }
     .nav-link svg{
             width: 70px;
