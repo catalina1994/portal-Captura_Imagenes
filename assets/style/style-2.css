@@ -20,7 +20,7 @@
   width: 49%;
 }
 
-@media (min-width: 365px) {
+@media (min-width: 480px) {
   #instaladores-tab .nav-item {
     width: initial;
   }
@@ -39,7 +39,7 @@
   line-height: 1.1;
 }
 
-@media (min-width: 365px) {
+@media (min-width: 480px) {
   #instaladores-tab.nav-pills .nav-link {
     width: 200px;
     padding: 2.5em 2em;
