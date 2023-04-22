@@ -1,32 +1,62 @@
 /*tab 01*/
 #instaladores-tab{
+    &.nav-pills{
+        display: flex;
+        justify-content: space-between;
+        @media (min-width: 365px){
+            justify-content:  center;
+        }
+    }
+    .nav-item{
+        width: 49%;
+        @media (min-width: 365px){
+            width: initial;
+        }
+    }
     &.nav-pills .nav-link{
-        padding:2.5em 2em;
+        width: 100%;
         border-radius: 0.7rem;
         background-color: rgba(229, 229 ,229 ,0.5);
-        margin: 0 0.5em;
         color: #00335E;
+        padding: 20px 5px;
+        p{
+            font: 14px;
+            line-height: 1.1;
+        }
+        @media (min-width: 365px){
+            width: 200px;
+            padding:2.5em 2em;
+            margin: 0 4px;
+        }
         @media (min-width: 576px){
             padding:2.5em 0;
+            width: 250px;
         }
         
     }
     .nav-link{
-        min-width: 200px;
-        width: 200px;
-        @media (min-width: 769px){
-            width: 250px;
-        }
+        
+        // @media (min-width: 562px){
+        //     min-width: 200px;
+        //     width: 200px;
+        // }
+        // @media (min-width: 769px){
+        //     width: 250px;
+        // }
         &:hover{
             transition: transform .6s;
             transform: scale(1.05)
         }
     }
     .nav-link svg{
-            width: 70px;
-            height: 70px;
+            width: 50px;
+            height: 50px;
             margin-bottom: 1em;
             fill: #00335E;
+            @media (min-width: 562px) {
+                width: 70px;
+            height: 70px; 
+            }
         
     }
     &.nav-pills .nav-link.active, &.nav-pills .show>.nav-link {
